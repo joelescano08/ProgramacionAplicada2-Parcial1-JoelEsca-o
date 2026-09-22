@@ -1,0 +1,34 @@
+{
+  "name": "programacionaplicada2-parcial1-joelesca-o",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joelescano08/ProgramacionAplicada2-Parcial1-JoelEsca-o.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/joelescano08/ProgramacionAplicada2-Parcial1-JoelEsca-o/issues"
+  },
+  "homepage": "https://github.com/joelescano08/ProgramacionAplicada2-Parcial1-JoelEsca-o#readme",
+  "dependencies": {
+    "@prisma/adapter-pg": "^7.10.0",
+    "@prisma/client": "^7.10.0",
+    "dotenv": "^18.0.3",
+    "express": "^5.2.1",
+    "pg": "^8.23.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14",
+    "prisma": "^7.10.0"
+  }
+}

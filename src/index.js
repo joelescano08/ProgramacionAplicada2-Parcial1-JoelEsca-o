@@ -1,6 +1,6 @@
 import 'dotenv/config';
 import express from 'express';
-import { loggerMiddleware } from './middlewares/logger.middleware.js';
+import { loggerMiddleware } from './middlewares/logger.Middleware.js';
 
 import authRoutes from './routers/auth.routes.js';
 import libroRoutes from './routers/libro.routes.js';
